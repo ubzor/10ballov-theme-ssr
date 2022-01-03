@@ -1,3 +1,3 @@
 <template lang="pug" src="./error-page.pug"></template>
 <script lang="ts" type="module" src="./error-page.ts"></script>
-<style lang="scss" scoped src="./error-page.scss"></style>
+<style lang="sass" scoped src="./error-page.sass"></style>
