@@ -1,6 +1,5 @@
-import { MutationTree } from 'vuex'
-
-import { RootState } from '@/typings/store/root'
+import type { MutationTree } from 'vuex'
+import type { RootState } from '@/typings/store/root'
 
 const mutations: MutationTree<RootState> = {
     toggleTest: (state) => {

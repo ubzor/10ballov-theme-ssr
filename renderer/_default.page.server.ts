@@ -1,10 +1,10 @@
 import { renderToNodeStream } from '@vue/server-renderer'
 import { escapeInject } from 'vite-plugin-ssr'
-import type { PageContextBuiltIn } from 'vite-plugin-ssr'
 
 import { createApp } from '@/app/app'
 import { getPageMeta } from '@/plugins/page-meta'
 
+import type { PageContextBuiltIn } from 'vite-plugin-ssr'
 import type { PageContext } from '@/typings/page-context'
 
 const passToClient = ['pageProps', 'documentProps']

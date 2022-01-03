@@ -1,10 +1,9 @@
-import { Module } from 'vuex'
-
 import state from './root-state'
 import mutations from './root-mutations'
 import actions from './root-actions'
 
-import { RootState } from '@/typings/store/root'
+import type { Module } from 'vuex'
+import type { RootState } from '@/typings/store/root'
 
 const store: Module<RootState, RootState> = {
     state,

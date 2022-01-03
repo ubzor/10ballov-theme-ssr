@@ -1,5 +1,4 @@
-import { ActionTree } from 'vuex'
-
+import type { ActionTree } from 'vuex'
 import type { RootState } from '@/typings/store/root'
 
 const actions: ActionTree<RootState, RootState> = {

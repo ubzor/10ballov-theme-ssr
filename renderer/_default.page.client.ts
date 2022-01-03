@@ -1,9 +1,9 @@
 import { useClientRouter } from 'vite-plugin-ssr/client/router'
-import type { PageContextBuiltInClient } from 'vite-plugin-ssr/client/router'
 
 import { createApp } from '@/app/app'
 import { getPageMeta } from '@/plugins/page-meta'
 
+import type { PageContextBuiltInClient } from 'vite-plugin-ssr/client/router'
 import type { PageContext } from '@/typings/page-context'
 
 let app: ReturnType<typeof createApp>

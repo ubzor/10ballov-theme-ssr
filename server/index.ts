@@ -3,7 +3,7 @@ import { createPageRenderer } from 'vite-plugin-ssr'
 import * as vite from 'vite'
 import dotenv from 'dotenv'
 
-import { AsyncReturnType } from 'type-fest'
+import type { AsyncReturnType } from 'type-fest'
 import type { PageContext } from '@/typings/page-context'
 
 dotenv.config({ path: '../.env' })

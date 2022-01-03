@@ -2,8 +2,8 @@
 // See https://vite-plugin-ssr.com/pageContext-anywhere
 
 import { inject } from 'vue'
-import type { App } from 'vue'
 
+import type { App } from 'vue'
 import type { PageContext } from '@/typings/page-context'
 
 export { usePageContext }
